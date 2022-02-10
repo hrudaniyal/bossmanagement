@@ -1,0 +1,67 @@
+:root {
+    --backcolor: rgb(192, 201, 200);
+    --sidecolor: rgb(29, 29, 59);
+    --maincolor: rgb(42, 42, 112);
+    --highlightcolor: rgb(218, 100, 32);
+    --textcolor: white;
+  }
+body{
+  padding: 0;
+  margin: 0;
+  background: var(--backcolor);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: .8em;
+}
+ 
+.btn{
+    padding: 10px ;
+    border-radius: 7px;
+}
+.Link{
+  color: white;
+  text-decoration: none;
+}
+.back{
+  display: block;
+  width: 100px;
+  text-align: center;
+  background: var(--highlightcolor);
+  color: -var(--textcolor);
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.input{
+  margin-bottom: 20px;
+}
+input{
+  padding: 7px;
+  border-radius:10px ;
+}
+.btn{
+  background: var(--highlightcolor);
+  border: none;
+  display: inline-block;
+  width: 30%;
+  margin: 10px auto;
+}
+.button{
+  padding: 7px;
+  border-radius: 10px;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  border: none;
+  margin-top: 20px;
+  background: var(--highlightcolor);
+}
+select{
+  padding: 7px;
+  border: none;
+  border-radius: 10px;
+}
+select{
+  padding: 7px;
+  border: none;
+  border-radius: 10px;
+}

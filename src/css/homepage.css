@@ -1,0 +1,40 @@
+.herosection{
+    width: 100%;
+    position: relative;
+}
+.heroimage{
+    width: 100%;
+    z-index: -1;
+}
+.herocontent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+  
+}
+.herocontent h2{
+    font-size: 3rem;
+    margin-bottom: 0px;
+    font-family: dekers_bold;
+}
+.herocontent p {
+    text-align: center;
+}
+
+@media screen and (max-width:650px) {
+    .herocontent h2{
+        font-size: 1rem;
+    }
+    .herocontent p{
+        font-size: .5rem;
+    }
+    
+}
+@font-face {
+    font-family:"Dekers_Bold";
+    src: url('./font/Dekers.ttf');
+}

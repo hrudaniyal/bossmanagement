@@ -1,0 +1,96 @@
+.about{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .about-text{
+    border-right: 4px solid red;
+  }
+  .about-skill,.about-text{
+    padding: 50px;
+  }
+  .about-heading{
+    text-align: center;
+  }
+  .about-back-img{
+    margin: 0 auto;
+    display: block;
+    object-fit:cover;
+    width: 80%;
+    height:40vh;
+  }
+  .about-profile-img{ 
+    position: relative;
+    top: -50px;
+    border: 7px double var(--highlightcolor);
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   
+  }
+  
+  .about-name{
+    text-align: center;
+    margin-top:-50px;
+  }
+  /* SKILL DETAILS */
+  .skill-content{
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+  .skill-content-img{
+    width: 100%;
+  }
+  .skill-template{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-gap:1rem ;
+    padding: 20px;
+  }
+ .skill-template-img{
+   width: 100%;
+   height: 100%;
+ }
+ /* SKILL BAR */
+ .skillbar{
+ display: grid;
+ align-items: center;
+ grid-template-columns: 20% 10% 60% 10%;
+
+ }
+ @media screen and (max-width:650px){
+  .about-back-img{
+   width: 100%;
+   height: 40%;
+  }
+  .about-heading{
+    text-align: left;
+  }
+  .about-profile-img{
+
+  }
+  .about-name{
+    text-align: center;
+    margin-top:-110px;
+    margin-left: 30px;
+  }
+  .about{
+    grid-template-columns: 100%;
+  }
+  /* skilldetails */
+  .skill-template{
+    grid-template-columns: 48% 48%;
+  }
+  .skill-content{
+    grid-template-columns: 100%;
+  }
+  .skill-content p{
+    padding: 10px;
+    shape-outside:content-box;
+    line-height: 30px;
+  }
+  .skill-head{
+    font-size: 1.5em;
+    
+  }
+ }

@@ -1,0 +1,49 @@
+.table {
+    width: 100%;
+}
+
+.ttitle {
+    background: var(--highlightcolor);
+    color: rgb(5, 1, 1);
+    padding: 7px;
+    border-radius: 5px;
+
+}
+
+.tdata {
+    background: var(--sidecolor);
+    color: rgb(194, 194, 194);
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.navLink {
+    text-decoration: underline;
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.dash-filter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dash-filter ul {
+    display: flex;
+    align-items: center;
+}
+
+.dash-filter ul li {
+    list-style: none;
+    margin: 5px;
+}
+
+.empty-search{
+    width:10;
+    display: flex;
+    justify-content: space-between;
+
+    background: blue;
+    position: absolute;
+}
